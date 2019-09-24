@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnBaglan"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="18dp"
+        android:text="Bağlan" />
+
+    <EditText
+        android:id="@+id/etMesaj"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="Mesajınız"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnGonder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/etMesaj"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="17dp"
+        android:text="Gönder" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="383dp"
+        android:layout_height="381dp"
+        android:layout_alignStart="@+id/etMesaj"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-18dp"
+        android:layout_marginTop="130dp" />
+</RelativeLayout>
